@@ -116,7 +116,8 @@ years.map((item) => {
 // console.log("Leap Years:", LeapYear);
 WorkZoneDominicanChange
 console.log("No Leap Years:", notLeapYear);
-
+WorkZoneDominicanChange
+console.log("No Leap Years:", notLeapYear);
 
 // 5. How would you determine the number of vowels in a sentence?
 
