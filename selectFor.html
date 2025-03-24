@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Year Select</title>
+</head>
+<body>
+    <select name="years" id="yearSelect"></select>
+
+    <script>
+        // Function to generate years array
+        function generateYears(start , end ) {
+            let years = [];
+            for (let year = start; year <= end; year++) {
+                years.push(year);
+            }
+            return years;
+        }
+
+        // Get the select element
+        const yearSelect = document.getElementById('yearSelect');
+
+        // Generate years and populate dropdown
+        const years = generateYears(2000, 2025);
+        
+        years.forEach(year => {
+            // Create new option element
+            const option = document.createElement('option');
+            option.value = year;
+            option.textContent = year;
+            
+            // Add option to select
+            yearSelect.appendChild(option);
+        });
+    </script>
+</body>
+</html>
