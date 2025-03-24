@@ -119,6 +119,9 @@ console.log("No Leap Years:", notLeapYear);
 WorkZoneDominicanChange
 // console.log("No Leap Years:", notLeapYear);
 
+// here javascript problem soving 3 
+
+
 // 5. How would you determine the number of vowels in a sentence?
 
 // 6. How would you extract the duplicate numbers in an array?
