@@ -5,9 +5,14 @@
 </head>
 <body>
     <select name="years" id="yearSelect"></select>
+    <input type="number" id="startYear" placeholder="Enter start year">
+<input type="number" id="endYear" placeholder="Enter end year">
+<button onclick="generateYearsFromInput()">Generate Years</button>
 
     <script>
         // Function to generate years array
+        const start = parseInt(document.getElementById("startYear").value);
+        const end = parseInt(document.getElementById("endYear").value);
         function generateYears(start , end ) {
             let years = [];
             for (let year = start; year <= end; year++) {
@@ -16,11 +21,12 @@
             return years;
         }
 
+       
         // Get the select element
         const yearSelect = document.getElementById('yearSelect');
 
         // Generate years and populate dropdown
-        const years = generateYears(2000, 2025);
+       
         
         years.forEach(year => {
             // Create new option element
@@ -29,7 +35,10 @@
             option.textContent = year;
             
             // Add option to select
-            yearSelect.appendChild(option);
+            function  generateYearsFromInput(){
+                yearSelect.appendChild(option);
+
+            }
         });
     </script>
 </body>
