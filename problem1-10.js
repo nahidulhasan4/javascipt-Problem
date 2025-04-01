@@ -114,9 +114,9 @@ years.map((item) => {
 });
 
 // console.log("Leap Years:", LeapYear);
-WorkZoneDominicanChange
-console.log("No Leap Years:", notLeapYear);
-WorkZoneDominicanChange
+// WorkZoneDominicanChange
+// console.log("No Leap Years:", notLeapYear);
+// WorkZoneDominicanChange
 // console.log("No Leap Years:", notLeapYear);
 
 // here javascript problem soving 3 
@@ -124,6 +124,24 @@ WorkZoneDominicanChange
 
 // 5. How would you determine the number of vowels in a sentence?
 
+const vowels = ['a', 'e' , 'i','o','u','A','E','I','O','U']
+
+const findVowels = function(sentence){
+ let count = 0;
+ const letters = Array.from(sentence)
+ letters.forEach(function(value){
+ 
+  if( vowels.includes(value)){
+    count++;
+  }
+  
+  return count;
+
+ })
+
+}
+
+findVowels("I Love Allah and I also Love My Profect (S)")
 // 6. How would you extract the duplicate numbers in an array?
 
 // 7. How would you extract the unique numbers in an array?
