@@ -126,7 +126,7 @@ years.map((item) => {
 
 const vowels = ['a', 'e' , 'i','o','u','A','E','I','O','U']
 
-const findVowels = function(sentence){
+ function findVowels(sentence){
  let count = 0;
  const letters = Array.from(sentence)
  letters.forEach(function(value){
@@ -139,6 +139,22 @@ const findVowels = function(sentence){
 
  })
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 }
 
 findVowels("I Love Allah and I also Love My Profect (S)")
