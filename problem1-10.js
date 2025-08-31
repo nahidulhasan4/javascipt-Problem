@@ -5,9 +5,9 @@ const getRandomNumber = (min, max) => {
 
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
-// getRandomNumber(1,6);
+getRandomNumber(1,6);
 // let ranDomNumber= Math.floor(Math.random() *(15 - 5))+5;
-// console.log(ranDomNumber);
+console.log(getRandomNumber(1, 6));
 // console.log(getRandomNumber(1,6));
 
 // 2. How can you order roll numbers of students in your class sequentially?
