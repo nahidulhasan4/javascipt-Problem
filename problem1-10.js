@@ -5,9 +5,9 @@ const getRandomNumber = (min, max) => {
 
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
-getRandomNumber(1,6);
+getRandomNumber(10,15);
 // let ranDomNumber= Math.floor(Math.random() *(15 - 5))+5;
-console.log(getRandomNumber(1, 6));
+console.log(getRandomNumber(10, 16));
 // console.log(getRandomNumber(1,6));
 
 // 2. How can you order roll numbers of students in your class sequentially?
@@ -26,8 +26,9 @@ const students = [
   "Ayman Hasan",
 ];
 //  we can easily do this usinf arry sort method
+// here we use sort method for maintain quea
 const studentsSrialbyAl = students.sort();
-// console.log(students);
+console.log(students);
 // console.log(studentsSrialbyAl);
 
 // 3. How can you order names of students in your class sequentially?
