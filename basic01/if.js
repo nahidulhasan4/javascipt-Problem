@@ -12,8 +12,13 @@ let b = 10;
 let StudentArry= {
     name: "nahid hasan",
     Result: 50,
+    {
+        
+    }
     
 }
+console.log(StudentArry.name);
+
 let Result = 70;
 if (Result >= 80 && Result <=100){
     console.log("A+");
