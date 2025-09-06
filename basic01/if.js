@@ -37,7 +37,7 @@ let b = 10;
 // }
 let grade = 60;
 
-switch (grade){
+switch (true){
     case(grade >= 80 && grade <=100):
         console.log("A+");
         break;
@@ -63,3 +63,4 @@ switch (grade){
         console.log("Invalid Result");
 
 }
+// switch case is better then if else if else
