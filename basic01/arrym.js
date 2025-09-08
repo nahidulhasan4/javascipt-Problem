@@ -1,5 +1,10 @@
 //   here i will practice js arry and its methodi
 let fruts = ["mango", "banana", "orange", "apple"];
+let fruts1 = ["kiwi", "papaya"];
+let fruts3 = fruts.concat(fruts1);
+console.log(fruts3.indexOf("kiwi"));
+
+console.log(fruts3);
 
 // ARRY JOIN MEHTOD DOING FOR it will be string and it can use selected symol  
 // let fruts2 = fruts.join(" * ");
