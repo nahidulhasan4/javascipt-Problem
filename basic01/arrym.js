@@ -1,8 +1,10 @@
 //   here i will practice js arry and its methodi
 let fruts = ["mango", "banana", "orange", "apple"];
 let fruts1 = ["kiwi", "papaya"];
-fruts1.pop();
-fruts1.push("watermelon");
+// arry pop mehtod arry last child re remove kore dey arry pop returne kore jeta se remove kore 
+// fruts1.pop();
+// arry push method use kore amra arry last e new child add korte pari
+// fruts1.push("watermelon");
 // we can set arrry length for defind arry how log will be 
 // fruts.length= 2;
 // fruts.shift
