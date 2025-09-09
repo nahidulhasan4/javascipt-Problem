@@ -12,8 +12,19 @@ let fruts3 = fruts.concat(fruts1);
 // console.log(fruts3.indexOf("kiwi"));
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// arry shift method arry first child re remove kore dey arry shift returne kore jeta se remove kore
+// fruits.shift();
+// arry unshift method use kore amra arry first e new child add korte pari
+fruits.unshift("Lemon");
+// arry delate method use kore amra akta items gayeb kore dity pari arry oi jayga ta undifidend hoy thakby index thakby 
+delete fruits[1];
+
+// fruits.shift();
+// console.log(fruits);
+
+
 // amra at methiod use kore arry er kono specific index er item ke access korte pari
-let fruit = fruits.at(0);
+// let fruit = fruits.at(0);
 // console.log(fruit);
 
 // here we can concert arry to string usieng toString mehtod
@@ -46,3 +57,14 @@ let myfruts = fruts.join("*")
 // console.log( fruts.indexOf("banana"));
 // 
 
+// const myArr = [[1,2],[3,4],[5,6]];
+// arry flat method use for make single arry from multi dimentional arry
+// const newArr = myArr.flat();
+// console.log(newArr);
+
+const myArr = [1, 2, 3, 4, 5, 6];
+// arry flatmap use kkore amra arry er prottek item er sathe kono oporation korte pari
+// const newArr = myArr.flatMap(x => [x, x * 20]);
+console.log(myArr);
+
+console.log(newArr);
