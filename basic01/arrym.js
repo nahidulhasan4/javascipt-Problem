@@ -11,13 +11,16 @@ let fruts1 = ["kiwi", "papaya"];
 let fruts3 = fruts.concat(fruts1);
 // console.log(fruts3.indexOf("kiwi"));
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const fruits = ["s",  "Banana", "Orange", "Apple", "Mango"];
 // arry shift method arry first child re remove kore dey arry shift returne kore jeta se remove kore
 // fruits.shift();
 // arry unshift method use kore amra arry first e new child add korte pari
-fruits.unshift("Lemon");
+// fruits.unshift("Lemon");
 // arry delate method use kore amra akta items gayeb kore dity pari arry oi jayga ta undifidend hoy thakby index thakby 
-delete fruits[1];
+// delete fruits[1];
+// arry sort method use kore amra arry ke alphabetically sort korte pari
+fruits.sort();
+console.log(fruits);
 
 // fruits.shift();
 // console.log(fruits);
@@ -30,7 +33,7 @@ delete fruits[1];
 // here we can concert arry to string usieng toString mehtod
 // let myfruts = fruts.toLocaleString()
 // if we use join method it will be more effective than toString method and also you can join arry using you won sign type. 
-let myfruts = fruts.join("*")
+// let myfruts = fruts.join("*")
 // console.log(myfruts);
 // arrry length use for find how much length have the arry 
 // console.log(fruts.length);
@@ -65,6 +68,6 @@ let myfruts = fruts.join("*")
 const myArr = [1, 2, 3, 4, 5, 6];
 // arry flatmap use kkore amra arry er prottek item er sathe kono oporation korte pari
 // const newArr = myArr.flatMap(x => [x, x * 20]);
-console.log(myArr);
+// console.log(myArr);
 
-console.log(newArr);
+// console.log(newArr);
