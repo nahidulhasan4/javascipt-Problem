@@ -17,8 +17,9 @@ const fruits = ["s",  "Banana", "Orange", "Apple", "Mango"];
 // 2nd parameter holo koto gulo item remove korte chai
 // 3rd parameter theke new item gulo add korte thakbe
 // 2nd parameter jodi 0 hoy tahole kono item remove hobe na
-fruits.splice(2, 0, "Lemon", "Kiwi");
-console.log(fruits);
+// fruits.splice(2, 0, "Lemon", "Kiwi");
+
+console.log(fruits.length);
 // arry shift method arry first child re remove kore dey arry shift returne kore jeta se remove kore
 // fruits.shift();
 // arry unshift method use kore amra arry first e new child add korte pari
