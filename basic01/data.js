@@ -30,3 +30,13 @@ let ame = "nahid hasan";
 // console.log(x,y);
 // x=20;
 // console.log(x,y);
+
+
+let Myfuction = function(a, b) {
+
+    return a + b;
+}
+
+console.log(Myfuction(10, 20)); // 30
+// 
+// function er vitor jodi amra kono variable declare kori taholy seta local variable hoye jabe mane seta function er vitor e use kora jabe
