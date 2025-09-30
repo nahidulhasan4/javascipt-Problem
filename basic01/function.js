@@ -4,6 +4,8 @@
 function MyFunction(a, b) {
     return a + b;
 }
+// a b are parameters
+// 10 20 are arguments
 // console.log(MyFunction(10, 20)); // 30
 
 // 2. function expression
