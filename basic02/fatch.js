@@ -1,6 +1,6 @@
 // here i will practice about fatch api
 
-const url = 'https://jsonplaceholder.typicode.com/posts';
+// const url = 'https://jsonplaceholder.typicode.com/posts';
 
 fetch(url)
     .then(response => response.json())
@@ -28,4 +28,3 @@ fetch(url)
                 .then(response => response.json())
                 .then(data => console.log(data))
                 .catch(error => console.error('Error:', error));
-                    
