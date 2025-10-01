@@ -32,7 +32,7 @@ let ame = "nahid hasan";
 // console.log(x,y);
 
 
-let Myarry = [10, 20, 30, 40,[484, 44,44 ], 50];
+// let Myarry = [10, 20, 30, 40,[484, 44,44 ], 50];
 Myarry.flatMap
 // console.log(Myarry); // [10, 20, 30, 40,[484, 44,44 ], 50]
 
