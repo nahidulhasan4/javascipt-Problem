@@ -8,6 +8,11 @@
 //     console.log(value); // Hello World
 // });
 
+// async fuction holo ekta function jeta always promise return kore 
+// and await holo ekta keyword jeta promise er result wait kore
+// jokhon porjonto promise resolve hoye na tokhon porjonto code er porer line gulo execute hoy na
+    // mane await er porer line gulo execute hoy na jokhon porjonto promise resolve hoye na
+    
 // async function MyFunction() {
 //     let promise = new Promise(function(resolve, reject) {
 //         setTimeout(function() {
