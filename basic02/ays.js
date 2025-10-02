@@ -22,6 +22,8 @@
 //     let result = await promise; // wait until the promise resolves
 //     console.log(result); // Hello World
 // }
+// settimeout diye 2 second por promise resolve hobe and tarpor await er porer line gulo execute hobe
+// cache korar jonno await use kora hoy
 
 // MyFunction();
 
