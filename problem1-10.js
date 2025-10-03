@@ -125,20 +125,20 @@ years.map((item) => {
 
 // 5. How would you determine the number of vowels in a sentence?
 
-const vowels = ['a', 'e' , 'i','o','u','A','E','I','O','U']
+// const vowels = ['a', 'e' , 'i','o','u','A','E','I','O','U']
 
- function findVowels(sentence){
- let count = 0;
- const letters = Array.from(sentence)
- letters.forEach(function(value){
+//  function findVowels(sentence){
+//  let count = 0;
+//  const letters = Array.from(sentence)
+//  letters.forEach(function(value){
  
-  if( vowels.includes(value)){
-    count++;
-  }
+//   if( vowels.includes(value)){
+//     count++;
+//   }
   
-  return count;
+//   return count;
 
- })
+//  })
 
 
 
