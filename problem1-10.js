@@ -156,7 +156,7 @@ years.map((item) => {
 
 
  
-}
+// }
 
 findVowels("I Love Allah and I also Love My Profect (S)")
 // 6. How would you extract the duplicate numbers in an array?
