@@ -24,6 +24,6 @@ let MyFunction3 = (a, b) => a + b;
 })(10, 20); // 30
 
 // 5. callback function
-function MyFunction4(a, b, callback) {
-    return callback(a, b);
-}
+// function MyFunction4(a, b, callback) {
+//     return callback(a, b);
+// }
