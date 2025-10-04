@@ -16,6 +16,7 @@ let MyFunction2 = function(a, b) {
 
 // 3. arrow function
 let MyFunction3 = (a, b) => a + b;
+// amra arrow function er khetre jodi sudhu ekta expression thake tahole curly braces and return statement use korte hoy na
 // console.log(MyFunction3(10, 20)); // 30
 
 // 4. IIFE (Immediately Invoked Function Expression)
