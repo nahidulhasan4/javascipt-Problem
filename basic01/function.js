@@ -20,9 +20,9 @@ let MyFunction3 = (a, b) => a + b;
 // console.log(MyFunction3(10, 20)); // 30
 
 // 4. IIFE (Immediately Invoked Function Expression)
-(function(a, b) {
-    console.log(a + b);
-})(10, 20); // 30
+// (function(a, b) {
+//     console.log(a + b);
+// })(10, 20); // 30
 
 // 5. callback function
 // function MyFunction4(a, b, callback) {
