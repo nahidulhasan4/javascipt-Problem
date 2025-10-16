@@ -39,4 +39,16 @@ switch(day){
 let time = 10;
 if(time >= 5 && time < 12){
     console.log("good morning");
+}else if(time >= 12 && time < 18){
+    console.log("good afternoon");
+}else if(time >= 18 && time < 22){
+    console.log("good evening");
+}else{
+    console.log("good night");
 }
+
+// output: good morning
+
+// ekhane amra if else if else er maddhome time er value onujayi greeting print koreci
+// jodi kono condition match na kore tahole else block run hobe and "good night" print hobe
+// if else if else er value number, string, boolean sob kichu hote pare
