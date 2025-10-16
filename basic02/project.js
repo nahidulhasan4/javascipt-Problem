@@ -34,3 +34,9 @@ switch(day){
 // jodi kono case match na kore tahole default case run hobe and "invalid day" print hobe
 // break statement diye amra case gulo ke alada koreci jate kore ekbar match hole baki case gulo run na kore
 // switch case er value number, string, boolean sob kichu hote pare
+
+// let's make a conditional statemnt using if else if else
+
+
+
+    
