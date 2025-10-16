@@ -36,7 +36,7 @@ switch(day){
 // switch case er value number, string, boolean sob kichu hote pare
 
 // let's make a conditional statemnt using if else if else
-
-
-
-    
+let time = 10;
+if(time >= 5 && time < 12){
+    console.log("good morning");
+}
