@@ -7,7 +7,7 @@ const getRandomNumber = (min, max) => {
 };
 getRandomNumber(10,15);
 // let ranDomNumber= Math.floor(Math.random() *(15 - 5))+5;
-console.log(getRandomNumber(10, 16));
+// console.log(getRandomNumber(10, 16));
 // console.log(getRandomNumber(1,6));
 
 // 2. How can you order roll numbers of students in your class sequentially?
@@ -28,7 +28,7 @@ const students = [
 //  we can easily do this usinf arry sort method
 // here we use sort method for maintain quea
 const studentsSrialbyAl = students.sort();
-console.log(students);
+// console.log(students);
 // console.log(studentsSrialbyAl);
 
 // 3. How can you order names of students in your class sequentially?
@@ -89,30 +89,30 @@ const studentsRollSeq = studentsRoll.sort((a,b)=>{
 // console.log(LeapYear);
 
 
-// console.log(notLeapYear);
+// // console.log(notLeapYear);
 
-let Year = function generateYears(start = 2010, end = 2080) {
-  let years = [];
-  for (let year = start; year <= end; year++) {
-      years.push(year);
-  }
-  return years;
-}
+// let Year = function generateYears(start = 2010, end = 2080) {
+//   let years = [];
+//   for (let year = start; year <= end; year++) {
+//       years.push(year);
+//   }
+//   return years;
+// }
 
 // Example usage
-let years = Year();
+// let years = Year();
 
 
 
-let LeapYear = []; 
-let notLeapYear = []; // Initialize LeapYear array
-years.map((item) => {
-  if ((item % 400 === 0) || ((item % 4 === 0) && (item % 100 !== 0))) {
-    LeapYear.push(item); // Push the leap year to LeapYear array
-  } else {
-    notLeapYear.push(item); 
-  }
-});
+// let LeapYear = []; 
+// let notLeapYear = []; // Initialize LeapYear array
+// years.map((item) => {
+//   if ((item % 400 === 0) || ((item % 4 === 0) && (item % 100 !== 0))) {
+//     LeapYear.push(item); // Push the leap year to LeapYear array
+//   } else {
+//     notLeapYear.push(item); 
+//   }
+// });
 
 // console.log("Leap Years:", LeapYear);
 // WorkZoneDominicanChange
@@ -125,40 +125,26 @@ years.map((item) => {
 
 // 5. How would you determine the number of vowels in a sentence?
 
-// const vowels = ['a', 'e' , 'i','o','u','A','E','I','O','U']
+const vowels = ['a', 'e' , 'i','o','u','A','E','I','O','U'];
 
-//  function findVowels(sentence){
-//  let count = 0;
-//  const letters = Array.from(sentence)
-//  letters.forEach(function(value){
+ function findVowels(sentence){
+ let count = 0;
+ const letters = Array.from(sentence);
+ letters.forEach(function(value){
  
-//   if( vowels.includes(value)){
-//     count++;
-//   }
-  
-//   return count;
+  if( vowels.includes(value)){
+    count++;
+  }
 
-//  })
+ });
 
+ return count;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-// }
-
-findVowels("I Love Allah and I also Love My Profect (S)")
+console.log(findVowels("I Love Allah and I also Love My Profect (S)"));
 // 6. How would you extract the duplicate numbers in an array?
+// akhany amra fliter method diy duplicate value khojy ber korbo
 
-// 7. How would you extract the unique numbers in an array?
+const numbers = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7];
+let duplicate=
+// 7. How would you extract the unique numbers in an array
