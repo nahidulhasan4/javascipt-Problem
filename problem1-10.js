@@ -147,8 +147,7 @@ console.log(findVowels("I Love Allah and I also Love My Profect (S)"));
 
 const numbers = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7];
 let duplicate= numbers.filter((value, index, array)=>{
-  return Array.indexOf(value) !== index
+  return array.indexOf(value) !== index;
 })
-
 console(duplicate)
 // 7. How would you extract the unique numbers in an array
