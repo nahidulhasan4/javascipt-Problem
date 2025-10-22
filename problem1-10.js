@@ -141,13 +141,22 @@ const vowels = ['a', 'e' , 'i','o','u','A','E','I','O','U'];
  return count;
 }
 
-console.log(findVowels("I Love Allah and I also Love My Profect (S)"));
+// console.log(findVowels("I Love Allah and I also Love My Profect (S)"));
 // 6. How would you extract the duplicate numbers in an array?
 // akhany amra fliter method diy duplicate value khojy ber korbo
 
-const numbers = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7];
-let duplicate= numbers.filter((value, index, array)=>{
+let numbers = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7];
+let duplicates = numbers.filter((value, index, array)=>{
   return array.indexOf(value) !== index;
 })
-console(duplicate)
+// console.log(duplicates)
 // 7. How would you extract the unique numbers in an array
+
+let numberss = [1,2,34,2,2,3,4,2,1,34,4,5,3,5,36,34,]
+
+let findUnic = numberss.filter((value,index,array)=>{
+  return array.indexOf(value) === index;
+
+})
+
+console.log(findUnic);
