@@ -145,7 +145,7 @@ const vowels = ['a', 'e' , 'i','o','u','A','E','I','O','U'];
 // 6. How would you extract the duplicate numbers in an array?
 // akhany amra fliter method diy duplicate value khojy ber korbo
 
-let numbers = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7];
+// let numbers = [1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7];
 let duplicates = numbers.filter((value, index, array)=>{
   return array.indexOf(value) !== index;
 })
@@ -160,3 +160,9 @@ let findUnic = numberss.filter((value,index,array)=>{
 })
 
 console.log(findUnic);
+let numbers = [1,2,34,2,2,3,4,2,1,34,4,5,3,5,36,34]; // removed extra 's'
+let uniqueNumbers = [...new Set(numbers)];
+let uniqueNumberstwo = Array.from(new Set(numbers));
+let uniqueNumbersthree = numbers.reduce((acc, curr) => {
+  return acc.includes(curr) ? acc : [...acc, curr];
+}, []);
