@@ -160,7 +160,9 @@ let findUnic = numberss.filter((value,index,array)=>{
 })
 
 console.log(findUnic);
+// method  two for fining uniq number 
 let numbers = [1,2,34,2,2,3,4,2,1,34,4,5,3,5,36,34]; // removed extra 's'
+// 
 let uniqueNumbers = [...new Set(numbers)];
 let uniqueNumberstwo = Array.from(new Set(numbers));
 let uniqueNumbersthree = numbers.reduce((acc, curr) => {
