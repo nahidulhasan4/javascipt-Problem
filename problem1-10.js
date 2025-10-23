@@ -168,3 +168,8 @@ let uniqueNumberstwo = Array.from(new Set(numbers));
 let uniqueNumbersthree = numbers.reduce((acc, curr) => {
   return acc.includes(curr) ? acc : [...acc, curr];
 }, []);
+
+// 
+
+const descrip ="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam possimus earum cupiditate eveniet rerum nisi consequatur reprehenderit nam esse quo! Quam temporibus, modi facilis quia, magni assumenda dolorum esse sit tenetur quas nisi ea, rem veniam ipsum. Ducimus culpa vm accusamus tempore perspiciatis beatae officiis, neque inventore laudantium dolor sed? "
+    
