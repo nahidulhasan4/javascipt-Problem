@@ -164,6 +164,7 @@ console.log(findUnic);
 let numbers = [1,2,34,2,2,3,4,2,1,34,4,5,3,5,36,34]; // removed extra 's'
 // method three for find uniq number
 let uniqueNumbers = [...new Set(numbers)];
+// method 4
 let uniqueNumberstwo = Array.from(new Set(numbers));
 let uniqueNumbersthree = numbers.reduce((acc, curr) => {
   return acc.includes(curr) ? acc : [...acc, curr];
