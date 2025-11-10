@@ -35,7 +35,7 @@ const studentsSrialbyAl = students.sort();
 const studentsRoll = [1,2,3,5,6,56,6,7,7,8,78,87,56,76];
 
 const studentsRollSeq = studentsRoll.sort((a,b)=>{
-    return a-b
+    // return a-b
 
 });
 // console.log(studentsRoll);
